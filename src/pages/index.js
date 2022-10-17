@@ -23,7 +23,6 @@ const HomeDefault = ({allPosts}) => {
       <HeadTitle pageTitle="Tyler Cheek" />
       <HeaderOne postData={allPosts}/>
       <SliderOne postData={allPosts} />
-      <PostSectionOne postData={allPosts}/>
       <PostSectionTwo postData={allPosts} adBanner={true} />
       <CategoryList cateData={allPosts}/>
       <PostSectionSix postData={allPosts} />
@@ -54,7 +53,6 @@ export async function getStaticProps() {
     'cate',
     'cate_img',
     'author_img',
-    'author_name',
     'post_views',
     'read_time',
   ])

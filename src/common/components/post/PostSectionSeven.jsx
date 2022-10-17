@@ -169,41 +169,6 @@ const PostSectionSeven = ({ postData }) => {
                                 <a>{firstPost.title}</a>
                               </Link>
                             </h3>
-                            <div className="post-meta-wrapper">
-                              <div className="post-meta">
-                                <div className="post-author-avatar border-rounded">
-                                  <Image
-                                    src={firstPost.author_img}
-                                    alt={firstPost.author_name}
-                                    height={50}
-                                    width={50}
-                                  />
-                                </div>
-                                <div className="content">
-                                  <h6 className="post-author-name">
-                                    <Link
-                                      href={`/author/${slugify(
-                                        firstPost.author_name
-                                      )}`}
-                                    >
-                                      <a className="hover-flip-item-wrapper">
-                                        <span className="hover-flip-item">
-                                          <span
-                                            data-text={firstPost.author_name}
-                                          >
-                                            {firstPost.author_name}
-                                          </span>
-                                        </span>
-                                      </a>
-                                    </Link>
-                                  </h6>
-                                  <ul className="post-meta-list">
-                                    <li>{firstPost.date}</li>
-                                    <li>{firstPost.post_views}</li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </div>
                           </div>
                         </div>
                       </div>

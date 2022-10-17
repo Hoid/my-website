@@ -58,17 +58,6 @@ const PostLayoutTwo = ({ dataPost, postStart, show, bgColor }) => {
             <div className="post-meta-wrapper">
               <div className="post-meta">
                 <div className="content">
-                  <h6 className="post-author-name">
-                    <Link href={`/author/${slugify(data.author_name)}`}>
-                      <a className="hover-flip-item-wrapper">
-                        <span className="hover-flip-item">
-                          <span data-text={data.author_name}>
-                            {data.author_name}
-                          </span>
-                        </span>
-                      </a>
-                    </Link>
-                  </h6>
                   <ul className="post-meta-list">
                     <li>{data.date}</li>
                     <li>{data.read_time}</li>

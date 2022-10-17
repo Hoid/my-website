@@ -1,5 +1,4 @@
 import PostMetaOne from "./element/PostMetaOne";
-import PostAuthor from "./element/PostAuthor";
 import SidebarTwo from "../../sidebar/SidebarTwo";
 import PostMetaTwo from "./element/PostMetaTwo";
 import PostComment from "./element/PostComment";
@@ -22,7 +21,6 @@ const PostFormatStandard = ({ postData, allData}) => {
               <div className="axil-post-details">
                 <div className="post-details-content" dangerouslySetInnerHTML={{ __html: postContent }}></div>
                 <PostTagShare postTags={postData}/>
-                <PostAuthor dataAuthor={postData} />
                 <PostComment />
               </div>
             </div>

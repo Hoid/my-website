@@ -52,7 +52,6 @@ export async function getStaticProps({params}) {
 		'featureImg',
 		'date',
 		'read_time',
-		'author_name',
         'tags'
     ]);
 

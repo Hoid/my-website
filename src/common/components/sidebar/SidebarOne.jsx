@@ -8,10 +8,6 @@ const SidebarOne = ({dataPost}) => {
   return (
     <div className="sidebar-inner">
       <WidgetCategory catData={dataPost}/>
-      <WidgetSearch />
-      <WidgetPostList postData={dataPost}/>
-      <WidgetSocialShare />
-      <WidgetInstagramPost />
     </div>
   );
 };

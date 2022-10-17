@@ -1,4 +1,3 @@
-import PostAuthor from "./element/PostAuthor";
 import SidebarTwo from "../../sidebar/SidebarTwo";
 import PostMetaTwo from "./element/PostMetaTwo";
 import PostComment from "./element/PostComment";
@@ -28,7 +27,6 @@ const PostFormatVideo = ({ postData, allData}) => {
                   dangerouslySetInnerHTML={{ __html: postContent }}
                 ></div>
                 <PostTagShare postTags={postData}/>
-                <PostAuthor dataAuthor={postData} />
                 <PostComment />
               </div>
             </div>

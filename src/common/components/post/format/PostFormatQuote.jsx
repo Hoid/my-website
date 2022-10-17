@@ -1,7 +1,5 @@
-import PostAuthor from "./element/PostAuthor";
 import SidebarTwo from "../../sidebar/SidebarTwo";
 import PostComment from "./element/PostComment";
-import PostMetaThree from './element/PostMetaThree';
 
 const PostFormatQuote = ({ postData, allData }) => {
   const basePathLink = process.env.NODE_ENV === 'production' ? process.env.NEXT_PUBLIC_BASEPATH ?? "" : "";
@@ -14,13 +12,11 @@ const PostFormatQuote = ({ postData, allData }) => {
         <div className="container">
           <div className="row">
             <div className="col-lg-8">
-              <PostMetaThree metaData={postData} />
               <div className="axil-post-details">
                 <div
                   className="post-details-content"
                   dangerouslySetInnerHTML={{ __html: postContent }}
                 ></div>
-                <PostAuthor dataAuthor={postData} />
                 <PostComment />
               </div>
             </div>

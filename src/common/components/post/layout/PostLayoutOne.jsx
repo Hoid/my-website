@@ -30,33 +30,6 @@ const PostLayoutOne = ({ postData, itemShow }) => {
                   <a>{data.title}</a>
                 </Link>
               </h4>
-              <div className="post-meta">
-                <div className="post-author-avatar border-rounded">
-                  <Image
-                    src={data.author_img}
-                    alt={data.author_name}
-                    height={50}
-                    width={50}
-                  />
-                </div>
-                <div className="content">
-                  <h6 className="post-author-name">
-                    <Link href={`/author/${slugify(data.author_name)}`}>
-                      <a className="hover-flip-item-wrapper">
-                        <span className="hover-flip-item">
-                          <span data-text={data.author_name}>
-                            {data.author_name}
-                          </span>
-                        </span>
-                      </a>
-                    </Link>
-                  </h6>
-                  <ul className="post-meta-list">
-                    <li>{data.date}</li>
-                    <li>{data.post_views}</li>
-                  </ul>
-                </div>
-              </div>
             </div>
             {data.featureImg ? 
             <div className="post-thumbnail">

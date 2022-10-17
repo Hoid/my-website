@@ -1,5 +1,4 @@
 import Image from "next/image";
-import PostAuthor from "./element/PostAuthor";
 import SidebarTwo from "../../sidebar/SidebarTwo";
 import PostMetaTwo from "./element/PostMetaTwo";
 import PostComment from "./element/PostComment";
@@ -74,7 +73,6 @@ const PostFormatGallery = ({ postData, allData }) => {
                   className="post-details-content"
                   dangerouslySetInnerHTML={{ __html: postContent }}
                 ></div>
-                <PostAuthor dataAuthor={postData} />
                 <PostComment />
               </div>
             </div>

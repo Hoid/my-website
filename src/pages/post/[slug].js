@@ -53,7 +53,6 @@ export async function getStaticProps({ params }) {
 		'date',
 		'slug',
 		'cate',
-		'author_name',
 		'author_img',
 		'author_designation',
 		'author_bio',
@@ -74,7 +73,6 @@ export async function getStaticProps({ params }) {
 		'cate',
 		'cate_img',
 		'author_img',
-		'author_name',
 		'post_views',
 		'read_time',
 	  ])
