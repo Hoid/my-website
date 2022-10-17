@@ -50,7 +50,6 @@ export async function getStaticProps() {
       'author_name',
       'post_views',
       'read_time',
-      'author_social',
     ])
     
     SortingByDate(allPosts)

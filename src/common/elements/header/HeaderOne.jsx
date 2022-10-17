@@ -13,7 +13,7 @@ const HeaderOne = ({pClass, darkLogo, lightLogo, postData}) => {
     const [showMMenu, SetShowMMenu] = useState(false);
     
     const MobileShowHandler = () => SetShowMMenu(true);  
-    const MobileHideHandler = () => SetShowMMenu(false);  
+    const MobileHideHandler = () => SetShowMMenu(false);
 
     const [togglaClass, setTogglaClass] = useState(false);
 

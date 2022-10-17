@@ -53,7 +53,6 @@ export async function getStaticProps({params}) {
 		'date',
 		'read_time',
 		'author_name',
-		'author_social',
         'tags'
     ]);
 

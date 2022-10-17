@@ -119,15 +119,6 @@ const SliderOne = ({ postData }) => {
                             </ul>
                           </div>
                         </div>
-                        <ul className="social-share-transparent justify-content-end">
-                            {data.author_social.map((data) => (
-                                <li key={data.url}>
-                                    <a href={data.url}>
-                                    <i className={data.icon} />
-                                    </a>
-                                </li>
-                            ))}
-                        </ul>
                         <div className="read-more-button cerchio">
                             <Link href={`/post/${data.slug}`}>
                                 <a className="axil-button button-rounded hover-flip-item-wrapper">

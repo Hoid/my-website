@@ -203,15 +203,6 @@ const PostSectionSeven = ({ postData }) => {
                                   </ul>
                                 </div>
                               </div>
-                              <ul className="social-share-transparent justify-content-end">
-                                {firstPost.author_social.map((data) => (
-                                  <li key={data.url}>
-                                    <a href={data.url}>
-                                      <i className={data.icon} />
-                                    </a>
-                                  </li>
-                                ))}
-                              </ul>
                             </div>
                           </div>
                         </div>

@@ -52,7 +52,6 @@ export async function getStaticProps({ params }) {
 		'post_views',
 		'read_time',
 		'author_name',
-		'author_social'
 	]);
 	
 	const getCategoryData = allPosts.filter(post => slugify(post.cate) === postParams);

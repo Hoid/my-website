@@ -115,33 +115,6 @@ const Nav = ({posts}) => {
                 </Link>
                 <ul className="axil-submenu">
                     <li>
-                        <Link href="/post/beauty-of-deep-space-billions-of-galaxies-in-the-universe.">
-                            <a className="hover-flip-item-wrapper">
-                                <span className="hover-flip-item">
-                                    <span data-text="Post Format Standard">Post Format Standard</span>
-                                </span>
-                            </a>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link href="/post/flutter-the-good-the-bad-and-the-ugly">
-                            <a className="hover-flip-item-wrapper">
-                                <span className="hover-flip-item">
-                                    <span data-text="Post Format Video">Post Format Video</span>
-                                </span>
-                            </a>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link href="/post/fashion-young-handsome-man-in-casual-watch">
-                            <a className="hover-flip-item-wrapper">
-                                <span className="hover-flip-item">
-                                    <span data-text="Post Format Gallery">Post Format Gallery</span>
-                                </span>
-                            </a>
-                        </Link>
-                    </li>
-                    <li>
                         <Link href="/post/lightweight-grippable-and-ready-to-go">
                             <a className="hover-flip-item-wrapper">
                                 <span className="hover-flip-item">

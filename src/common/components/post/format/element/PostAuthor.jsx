@@ -31,20 +31,6 @@ const PostAuthor = ({dataAuthor}) => {
             </h5>
             <span className="b3 subtitle">{dataAuthor.author_designation}</span>
           </div>
-          <div className="content">
-            <p className="b1 description">
-                {dataAuthor.author_bio}
-            </p>
-            <ul className="social-share-transparent size-md">
-            { dataAuthor.author_social.map((social) => (
-                <li key={social.url}>
-                    <a href={social.url}>
-                    <i className={social.icon} />
-                    </a>
-                </li>
-            ))}
-            </ul>
-          </div>
         </div>
       </div>
     </div>

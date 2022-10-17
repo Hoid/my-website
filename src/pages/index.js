@@ -20,7 +20,7 @@ const HomeDefault = ({allPosts}) => {
  
   return ( 
     <>
-      <HeadTitle pageTitle="Home Default" />
+      <HeadTitle pageTitle="Tyler Cheek" />
       <HeaderOne postData={allPosts}/>
       <SliderOne postData={allPosts} />
       <PostSectionOne postData={allPosts}/>
@@ -57,7 +57,6 @@ export async function getStaticProps() {
     'author_name',
     'post_views',
     'read_time',
-    'author_social',
   ])
 
   return {
